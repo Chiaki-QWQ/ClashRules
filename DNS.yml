@@ -1,6 +1,5 @@
 mixed-port: 7890
-ipv6: false
-allow-lan: false
+allow-lan: true
 bind-address: '*'
 mode: rule
 log-level: info
@@ -9,10 +8,10 @@ dns:
     enable: true
     listen: '127.0.0.1:53'
     ipv6: false
-    default-nameserver: [223.5.5.5, 119.29.29.29]
+    default-nameserver: [119.29.29.29, 223.5.5.5]
     enhanced-mode: fake-ip
     fake-ip-range: 28.0.0.1/8
     fake-ip-filter: [+.lan, +.10010.com, +.chinaunicom.com, '*.alipay.com', '*.alipayobjects.com', connect.rom.miui.com, localhost.ptlogin2.qq.com, '+.stun.*.*', '+.stun.*.*.*', '+.stun.*.*.*.*', '+.stun.*.*.*.*.*', '*.n.n.srv.nintendo.net', +.stun.playstation.net, '*.msftncsi.com', '*.msftconnecttest.com', ntp.ntsc.ac.cn]
     nameserver: ['https://doh.pub/dns-query', 'https://dns.alidns.com/dns-query']
-    fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query']
+    fallback: ['https://dns.google/dns-query', 'https://dns.cloudflare.com/dns-query']
     fallback-filter: { geoip: true, geoip-code: CN, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
