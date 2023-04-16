@@ -11,7 +11,9 @@ dns:
     default-nameserver: [119.29.29.29, 223.5.5.5]
     enhanced-mode: fake-ip
     fake-ip-range: 28.0.0.1/8
-    fake-ip-filter: [+.lan, +.10010.com, +.chinaunicom.com, '*.alipay.com', '*.alipayobjects.com', connect.rom.miui.com, localhost.ptlogin2.qq.com, '+.stun.*.*', '+.stun.*.*.*', '+.stun.*.*.*.*', '+.stun.*.*.*.*.*', '*.n.n.srv.nintendo.net', +.stun.playstation.net, '*.msftncsi.com', '*.msftconnecttest.com', ntp.ntsc.ac.cn]
+    fake-ip-filter: [+.lan, localhost.ptlogin2.qq.com, '+.stun.*.*', '+.stun.*.*.*', '+.stun.*.*.*.*', '+.stun.*.*.*.*.*', '*.msftncsi.com', '*.msftconnecttest.com', '*.*.*.stun.playstation.net', 'xbox.*.microsoft.com', '*.*.*.xboxlive.com']
     nameserver: ['https://doh.pub/dns-query', 'https://dns.alidns.com/dns-query']
     fallback: ['https://dns.google/dns-query', 'https://dns.cloudflare.com/dns-query']
-    fallback-filter: { geoip: true, geoip-code: CN, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
+    fallback-filter: { geoip: true, geoip-code: CN }
+    domain: [+.google.com, +.facebook.com, +.youtube.com, +.github.com]
+    ipcidr: [240.0.0.0/4, 0.0.0.0/4]
