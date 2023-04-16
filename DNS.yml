@@ -15,5 +15,4 @@ dns:
     nameserver: ['https://doh.pub/dns-query', 'https://dns.alidns.com/dns-query']
     fallback: ['https://dns.google/dns-query', 'https://dns.cloudflare.com/dns-query']
     fallback-filter: { geoip: true, geoip-code: CN }
-    domain: [+.google.com, +.facebook.com, +.youtube.com, +.github.com]
     ipcidr: [240.0.0.0/4, 0.0.0.0/4]
