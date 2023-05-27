@@ -13,5 +13,5 @@ dns:
     fake-ip-filter: [+.lan, localhost.ptlogin2.qq.com, '+.stun.*.*', '+.stun.*.*.*', '+.stun.*.*.*.*', '+.stun.*.*.*.*.*', '*.msftncsi.com', '*.msftconnecttest.com', '*.*.*.stun.playstation.net', 'xbox.*.microsoft.com', '*.*.*.xboxlive.com']
     use-hosts: true
     nameserver: ['https://doh.pub/dns-query', 'https://dns.alidns.com/dns-query']
-    fallback: ['https://dns.google/dns-query', 'https://dns.cloudflare.com/dns-query']
+    fallback: ['https://dns.google/dns-query', 'https://dns.twnic.tw/dns-query']
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
