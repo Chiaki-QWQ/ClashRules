@@ -1,3 +1,2 @@
 custom:
-  clash_rule_base: https://gist.githubusercontent.com/tindy2013/1fa08640a9088ac8652dbd40c5d2715b/raw/clash_adg_base.yml
-  
+  clash_rule_base: https://raw.githubusercontent.com/Chiaki-QWQ/ClashRules/main/DNS.yml
