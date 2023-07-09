@@ -37,7 +37,6 @@ dns:
       - 'time6.*.com'
       - 'time7.*.com'
       - 'ntp.*.com'
-      - 'ntp.*.com'
       - 'ntp1.*.com'
       - 'ntp2.*.com'
       - 'ntp3.*.com'
