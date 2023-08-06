@@ -1,5 +1,5 @@
 # Qxdfimd's Clash Rules
-<big>**No DNS leak | Enhance GFW List | More China IP**</big>  
+<big>**No DNS leak | Enhance GFW List | Enhance China IP**</big>  
 
 [Base](https://raw.githubusercontent.com/Chiaki-QWQ/ClashRules/main/Base.ini): Only Chinese websites  
 [Full](https://raw.githubusercontent.com/Chiaki-QWQ/ClashRules/main/Full.ini): Many media and services  
