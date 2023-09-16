@@ -104,5 +104,4 @@ dns:
       - '+.nvgs.nvidia.cn'
       - 'shark007.net'
     nameserver:
-      - tls://223.5.5.5
-      - tls://223.6.6.6
+      - tls://dns.alidns.com
