@@ -1,7 +1,4 @@
-mixed-port: 7890
 ipv6: true
-mode: rule
-external-controller: 127.0.0.1:9090
 dns:
     enable: true
     ipv6: true
