@@ -11,6 +11,7 @@ dns:
     ipv6: true
     listen: 127.0.0.1:1053
     enhanced-mode: fake-ip
+    use-system-hosts: false
     fake-ip-range: 28.0.0.1/8
     fake-ip-filter:
       - '*.lan'
@@ -114,29 +115,29 @@ dns:
       #DNSPod
       - 119.29.29.29
       - 182.254.116.116
-    fallback:
-      #CloudFlare
-      - tls://1.1.1.1
-      - tls://1.0.0.1
-      #Google
-      - tls://8.8.8.8
-      - tls://8.8.4.4
-      #OpenDNS
-      - tls://208.67.222.222
-      - tls://208.67.220.220
-      #Quad9
-      - tls://9.9.9.9
-      - tls://149.112.112.112
-      #Quad101
-      - tls://101.101.101.101
-      - tls://101.102.103.10
-      #DNS.SB
-      - tls://185.222.222.222
-      - tls://45.11.45.11
-    fallback-filter:
-      geoip: true
-      geoip-code: CN
-      ipcidr:
-        - 240.0.0.0/4
-        - 0.0.0.0/32
-        - 127.0.0.1/32
+    # fallback:
+    #   #CloudFlare
+    #   - tls://1.1.1.1
+    #   - tls://1.0.0.1
+    #   #Google
+    #   - tls://8.8.8.8
+    #   - tls://8.8.4.4
+    #   #OpenDNS
+    #   - tls://208.67.222.222
+    #   - tls://208.67.220.220
+    #   #Quad9
+    #   - tls://9.9.9.9
+    #   - tls://149.112.112.112
+    #   #Quad101
+    #   - tls://101.101.101.101
+    #   - tls://101.102.103.10
+    #   #DNS.SB
+    #   - tls://185.222.222.222
+    #   - tls://45.11.45.11
+    # fallback-filter:
+    #   geoip: true
+    #   geoip-code: CN
+    #   ipcidr:
+    #     - 240.0.0.0/4
+    #     - 0.0.0.0/32
+    #     - 127.0.0.1/32
