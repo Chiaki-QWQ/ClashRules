@@ -117,6 +117,7 @@ dns:
       - tls://1.12.12.12
     fallback:
       #Google
+      - https://8.8.4.4/dns-query
       - tls://8.8.4.4
       #CloudFlare
       - https://104.16.249.249/dns-query
