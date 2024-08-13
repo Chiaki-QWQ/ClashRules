@@ -111,6 +111,4 @@ dns:
     nameserver:
       #AliDNS
       - https://223.5.5.5/dns-query
-      - tls://223.5.5.5
       - https://223.6.6.6/dns-query
-      - tls://223.6.6.6
