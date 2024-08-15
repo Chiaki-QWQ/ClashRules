@@ -6,11 +6,15 @@ ipv6: true
 external-controller: 127.0.0.1:9090
 secret: ''
 unified-delay: true
+hosts:
+    mtalk.google.com: 108.177.125.188
+    services.googleapis.cn: 74.125.203.94
 dns:
     enable: true
     ipv6: true
     prefer-h3: true
     listen: 127.0.0.1:1053
+    use-hosts: true
     enhanced-mode: fake-ip
     fake-ip-range: 28.0.0.1/8
     fake-ip-filter:
